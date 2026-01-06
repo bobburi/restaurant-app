@@ -6,7 +6,6 @@ app = Flask(__name__)
 menu = [
     {"id": 1, "name": "Paneer Butter Masala", "price": 220},
     {"id": 2, "name": "Veg Biryani", "price": 180},
-    {"id": 3, "name": "Chicken Masala", "price": 250}
     
 ]
 
