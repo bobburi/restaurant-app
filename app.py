@@ -7,14 +7,14 @@ menu = [
     {"id": 1, "name": "Paneer Butter Masala", "price": 220},
     {"id": 2, "name": "Veg Biryani", "price": 180},
     {"id": 3, "name": "Chicken Masala", "price": 250}
-    {"id": 4, "name": "Chicken biryani", "price": 240}
+    
 ]
 
 # Home route
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Welcome to Python Restaurant App"
+        "message": "Welcome to Python  App"
     })
 
 # Get full menu
